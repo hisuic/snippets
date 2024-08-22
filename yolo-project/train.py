@@ -8,5 +8,5 @@ results = model.train(
     data='{PATH TO data.yaml}', 
     epochs=3, 
     imgsz=640, 
-    device='cpu' # using CPU for training (option for windows)
+    device='cpu' # Use CPU for training (Option for windows which doesn't have GPU)
 )
