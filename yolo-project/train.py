@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n.pt')
 
 results = model.train(
-    data='./data.yaml', 
+    data='{PATH TO data.yaml}', 
     epochs=3, 
     imgsz=640, 
     device='cpu' # using CPU for training (option for windows)
