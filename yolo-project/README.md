@@ -1,0 +1,3 @@
+- default.py: Detect with default yolov8n pre-trained model
+- train.py: Train with specific detasets
+- detecting.py: Detect with trained model
