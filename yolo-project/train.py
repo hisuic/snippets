@@ -1,12 +1,21 @@
-# https://docs.ultralytics.com/modes/train/#key-features-of-train-mode for more information
-
 from ultralytics import YOLO
 
-model = YOLO('yolov8n.pt')
+# imports for reading .env
+import os
+from dotenv import load_dotenv, dotenv_values 
+# load .env file
+load_dotenv() 
+
+# model = YOLO('yolov8n.pt')
+model = YOLO(os.getenv("TRAINED_MODEL"))
 
 results = model.train(
-    data='{PATH TO data.yaml}', 
-    epochs=3, 
-    imgsz=640, 
-    device='cpu' # Use CPU for training (Option for windows which doesn't have GPU)
+    # data='datasets/book-seg.v3i.yolov8-obb/data.yaml', 
+    # epochs=3, 
+    # imgsz=640, 
+    # device='cpu' # Train with CPU(Option for windows without GPU)
+    data=os.getenv("DATA_FILE"), 
+    epochs=os.getenv("EPOCHS"), 
+    imgsz=os.getenv("IMAGE_SIZE"), 
+    device=os.getenv("DEVICE")
 )
