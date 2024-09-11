@@ -14,4 +14,4 @@ extract text in pdf file
 python3 yubaba.py <PDF file path>
 ```
 
-completed text file will be saved in the same directory of original PDF file automatically
+completed text file will be automatically saved into the same directory as the designated PDF file
