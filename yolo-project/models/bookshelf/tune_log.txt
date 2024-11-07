@@ -1,13 +1,15 @@
 Train Log
 
 Train 1
-Base Model	: YOLOv8n
-Dataset		: https://universe.roboflow.com/bookspine-fxfsx/book_spine_2/dataset/4
-Epochs		: 6
+Base Model		: YOLOv8n
+Dataset			: https://universe.roboflow.com/bookspine-fxfsx/book_spine_2/dataset/4
+Dataset Version	: 2
+Epochs			: 6
 
 Train 2
-Base Model	: Train1 last.pt
-Dataset		: https://universe.roboflow.com/bookspine-fxfsx/book_spine_2/dataset/4
-Epochs		: 10
+Base Model		: Train1 last.pt
+Dataset			: https://universe.roboflow.com/bookspine-fxfsx/book_spine_2/dataset/4
+Dataset Version	: 2
+Epochs			: 10
 
 Train 2 last.pt with conf=0.45
