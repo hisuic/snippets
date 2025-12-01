@@ -8,7 +8,7 @@ fast and easy YouTube video downloader
 ### Step 1
 Get required packages with command below
 ```
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Step 2
