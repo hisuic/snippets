@@ -9,3 +9,4 @@
 | [PyDB](https://github.com/hisuic/snippets/tree/main/PyDB) | Create database file from an Excel file |
 | [QuickArchive](https://github.com/hisuic/snippets/tree/main/QuickArchive) | fast and easy YouYube video downloader |
 | [Dimitri](https://github.com/hisuic/snippets/tree/main/Dimitri) | youtube sound downloader |
+| [whatHEIC](https://github.com/hisuic/snippets/tree/main/whatHEIC) | Convert HEIC image to JPG image |
