@@ -11,3 +11,6 @@
 | [whatHEIC](https://github.com/hisuic/snippets/tree/main/whatHEIC) | Convert HEIC image to JPG image |
 | [yolo-project](https://github.com/hisuic/snippets/tree/main/yolo-project) | Object detecting basic syntax|
 | [Yubaba](https://github.com/hisuic/snippets/tree/main/yubaba) | Extract text from a pdf file |
+| [Scroll Detector](https://github.com/hisuic/scrolldetector) | Block your doom scrolling |
+| [bcolor](https://github.com/hisuic/bcolor) | Simple color picker browser extension |
+| [Novora](https://github.com/hisuic/novora) | simple news fetch browser extension |
